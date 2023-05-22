@@ -1,0 +1,69 @@
+0 verbose cli /home/vagrant/.nvm/versions/node/v20.1.0/bin/node /home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@9.6.4
+2 info using node@v20.1.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/home/vagrant/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/home/vagrant/.nvm/versions/node/v20.1.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 4ms
+16 timing npm:load:configload Completed in 4ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 0ms
+19 verbose title npm exec create-react-up
+20 verbose argv "exec" "--" "create-react-up"
+21 timing npm:load:setTitle Completed in 1ms
+22 timing config:load:flatten Completed in 1ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/home/vagrant/.npm/_logs/2023-05-15T03_04_18_762Z-
+25 verbose logfile /home/vagrant/.npm/_logs/2023-05-15T03_04_18_762Z-debug-0.log
+26 timing npm:load:logFile Completed in 4ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 14ms
+30 silly logfile done cleaning log files
+31 timing arborist:ctor Completed in 1ms
+32 http fetch GET 404 https://registry.npmjs.org/create-react-up 461ms (cache skip)
+33 http fetch GET 200 https://registry.npmjs.org/npm 535ms (cache miss)
+34 http fetch GET 404 https://registry.npmjs.org/create-react-up 704ms (cache skip)
+35 timing command:exec Completed in 1203ms
+36 notice
+36 notice New [32mpatch[39m version of npm available! [31m9.6.4[39m -> [32m9.6.6[39m
+36 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.6.6[39m
+36 notice Run [32mnpm install -g npm@9.6.6[39m to update!
+36 notice
+37 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/create-react-up - Not found
+37 verbose stack     at /home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+37 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+37 verbose stack     at async RegistryFetcher.packument (/home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/node_modules/pacote/lib/registry.js:87:19)
+37 verbose stack     at async RegistryFetcher.manifest (/home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/node_modules/pacote/lib/registry.js:118:23)
+37 verbose stack     at async getManifest (/home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:30:22)
+37 verbose stack     at async missingFromTree (/home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:56:22)
+37 verbose stack     at async /home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:165:32
+37 verbose stack     at async Promise.all (index 0)
+37 verbose stack     at async exec (/home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:163:3)
+37 verbose stack     at async module.exports (/home/vagrant/.nvm/versions/node/v20.1.0/lib/node_modules/npm/lib/cli.js:89:5)
+38 verbose statusCode 404
+39 verbose pkgid create-react-up@*
+40 verbose cwd /home/vagrant
+41 verbose Linux 5.15.0-71-generic
+42 verbose node v20.1.0
+43 verbose npm  v9.6.4
+44 error code E404
+45 error 404 Not Found - GET https://registry.npmjs.org/create-react-up - Not found
+46 error 404
+47 error 404  'create-react-up@*' is not in this registry.
+48 error 404
+48 error 404 Note that you can also install from a
+49 error 404 tarball, folder, http url, or git url.
+50 verbose exit 1
+51 timing npm Completed in 1237ms
+52 verbose code 1
+53 error A complete log of this run can be found in: /home/vagrant/.npm/_logs/2023-05-15T03_04_18_762Z-debug-0.log
